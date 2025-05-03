@@ -3,5 +3,5 @@ services:
     name: cleaning-admin
     runtime: java
     buildCommand: ./mvnw clean package
-    startCommand: java -jar target/cleaning-admin-0.0.1-SNAPSHOT.jar
+    startCommand: java -jar target/admin-0.0.1-SNAPSHOT.jar
     env: java
