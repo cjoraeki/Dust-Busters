@@ -1,7 +1,6 @@
 services:
   - type: web
     name: cleaning-admin
-    runtime: java
     buildCommand: ./mvnw clean package
     startCommand: java -jar target/admin-0.0.1-SNAPSHOT.jar
     envVars:
