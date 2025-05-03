@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cleaning-admin
+    runtime: java
+    buildCommand: ./mvnw clean package # or ./gradlew build
+    startCommand: java -jar target/*.jar # or build/libs/*.jar for Gradle
+    env: java
