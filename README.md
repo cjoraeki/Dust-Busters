@@ -1,4 +1,4 @@
-# Dust-Busters
+# Dirt-Busters
 
 This Spring Boot application provides a complete admin dashboard for managing cleaning tasks. Here's what I've built:
 
